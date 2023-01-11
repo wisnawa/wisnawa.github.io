@@ -1,0 +1,57 @@
+body.main-warna-dasar {
+  background-color: #e9edc9;
+}
+.container {
+  max-width: 880px;
+}
+.card,
+.main-card ul li,
+section#section-empat li,
+section#section-lima ul li,
+section#section-enam table {
+  background-color: #fefae0;
+}
+div.card-footer a {
+  color: #d4a373;
+  text-decoration: none;
+  margin-right: 40px;
+}
+#section-satu img {
+  width: 30%;
+}
+section#main-kolom-tiga p {
+  font-size: 12px;
+  color: #d4a373;
+}
+section#main-kolom-tiga i,
+section#section-dua i,
+section#section-empat i.main-color-icon,
+section#section-lima i.main-color-icon {
+  color: #d4a373;
+}
+section#section-empat a,
+section#section-lima a,
+section#section-enam a {
+  padding-bottom: 5px;
+  font-size: 9px;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* section#section-lima a {
+  margin-top: auto;
+} */
+section#section-lima span {
+  margin-right: 12px;
+}
+section#section-lima {
+  color: #d4a373;
+}
+/* section#section-enam thead {
+  background-color: #e9edc9;
+} */
+.img-main:hover,
+.img-main:focus {
+  filter: invert(27%) sepia(51%) saturate(9);
+}
