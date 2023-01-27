@@ -89,10 +89,16 @@ ul.main-print {
   margin: 2px 130px 2px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 412px) {
   ul.main-print {
     display: grid;
     grid-template-columns: auto auto;
+    column-gap: 1px;
     margin: 2px 1px 2px;
+  }
+  ul.main-print li a {
+    /* padding: 2px 2px 2px; */
+    /* color: rebeccapurple; */
+    padding: 2px 1px 2px;
   }
 }
