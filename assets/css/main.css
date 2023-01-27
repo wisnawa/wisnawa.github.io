@@ -88,3 +88,11 @@ ul.main-print {
   grid-template-columns: auto auto;
   margin: 2px 130px 2px;
 }
+
+@media screen and (max-width: 576px) {
+  ul.main-print {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 2px 1px 2px;
+  }
+}
