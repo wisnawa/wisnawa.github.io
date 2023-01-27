@@ -55,3 +55,20 @@ section#section-lima {
 .img-main:focus {
   filter: invert(27%) sepia(51%) saturate(9);
 }
+ul.main-print li a {
+  text-decoration: none;
+  border-style: solid;
+  border-color: green;
+  padding: 2px 30px 2px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+ul.main-print li {
+  list-style: none;
+  text-align: center;
+}
+ul.main-print {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 2px 130px 2px;
+}
