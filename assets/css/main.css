@@ -58,10 +58,26 @@ section#section-lima {
 ul.main-print li a {
   text-decoration: none;
   border-style: solid;
-  border-color: green;
+  border-color: #a3b18a;
   padding: 2px 30px 2px;
   border-radius: 6px;
   text-decoration: none;
+  background-color: #a3b18a;
+  color: green;
+}
+ul.main-print li a:link {
+  color: pink;
+}
+/* ul.main-print li a:visited {
+  color: white;
+} */
+ul.main-print li a:hover {
+  color: greenyellow;
+  border-color: greenyellow;
+}
+ul.main-print li a:active {
+  color: #fefae0;
+  border-color: #fefae0;
 }
 ul.main-print li {
   list-style: none;
