@@ -55,50 +55,21 @@ section#section-lima {
 .img-main:focus {
   filter: invert(27%) sepia(51%) saturate(9);
 }
-ul.main-print li a {
-  text-decoration: none;
-  border-style: solid;
-  border-color: #a3b18a;
-  padding: 2px 30px 2px;
-  border-radius: 6px;
-  text-decoration: none;
-  background-color: #a3b18a;
-  color: green;
-}
-ul.main-print li a:link {
-  color: green;
-}
-/* ul.main-print li a:visited {
-  color: white;
-} */
-ul.main-print li a:hover {
-  color: greenyellow;
-  border-color: greenyellow;
-}
-ul.main-print li a:active {
-  color: #fefae0;
-  border-color: #fefae0;
-}
-ul.main-print li {
-  list-style: none;
-  text-align: center;
-}
-ul.main-print {
-  display: grid;
-  grid-template-columns: auto auto;
-  margin: 2px 130px 2px;
+
+@media screen and (max-width: 820px) {
+  .container #main-bottom1 {
+    width: 40%;
+  }
+  .container #main-bottom2 {
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 412px) {
-  ul.main-print {
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 1px;
-    margin: 2px 1px 2px;
+  .container #main-bottom1 {
+    width: 50%;
   }
-  ul.main-print li a {
-    /* padding: 2px 2px 2px; */
-    /* color: rebeccapurple; */
-    padding: 2px 1px 2px;
+  .container #main-bottom2 {
+    width: 50%;
   }
 }
