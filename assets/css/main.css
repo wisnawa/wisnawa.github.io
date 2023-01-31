@@ -55,6 +55,9 @@ section#section-lima {
 .img-main:focus {
   filter: invert(27%) sepia(51%) saturate(9);
 }
+#email-main:hover {
+  color: #560bad;
+}
 
 @media screen and (max-width: 820px) {
   .container #main-bottom1 {
